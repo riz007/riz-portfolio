@@ -24,34 +24,31 @@ export const aboutData = {
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
-// PROJECTS DATA
-export const projectsData = [
+// EXPERIENCE DATA
+export const experienceData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    logo: 'project.jpg',
+    company: 'Manatal Co. Ltd. (2019 - Current)',
+    position: 'Software Developer',
+    info: 'The next generation of Recruitment Software providing Human Resource teams, Headhunters with tools to make hiring faster, easier and more transparent.',
+    projects: 'Applicant Tracking System, WordPress website',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    logo: 'project.jpg',
+    company: 'Pocket Playlab (2018- 2019)',
+    position: 'Software Engineer',
+    info: 'Playlab is a leading game developer & publisher that\'s grown from six passionate gamers to a team of 100+ gaming fanatics striving to create the best games.',
+    projects: 'Online auction website, Email Notification System, WordPress based brand websites, Fixed auction website',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    logo: 'project.jpg',
+    company: 'XYZprinting (2016 - 2018)',
+    position: 'Software Engineer',
+    info: 'Founded in 2013, XYZprinting is dedicated to bringing cost-effective 3D printing to consumers and businesses around the world. ',
+    projects: '3D Gallery application, XYZprinting E-Store, STEAM, XYZprinting main website',
   },
 ];
 
@@ -59,7 +56,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'rizwanulrudra@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +65,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/rizwanulrudra',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/rizishere/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/riz007',
     },
   ],
 };
