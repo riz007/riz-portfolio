@@ -31,7 +31,7 @@ export const experienceData = [
     logo: 'project.jpg',
     company: 'Manatal Co. Ltd. (2019 - Current)',
     position: 'Software Developer',
-    info: 'The next generation of Recruitment Software providing Human Resource teams, Headhunters with tools to make hiring faster, easier and more transparent.',
+    info: '',
     projects: 'Applicant Tracking System, WordPress website',
   },
   {
@@ -49,6 +49,46 @@ export const experienceData = [
     position: 'Software Engineer',
     info: 'Founded in 2013, XYZprinting is dedicated to bringing cost-effective 3D printing to consumers and businesses around the world. ',
     projects: '3D Gallery application, XYZprinting E-Store, STEAM, XYZprinting main website',
+  },
+];
+
+// SKILLS DATA
+
+export const skillsData = [
+  {
+    id: nanoid(),
+    logo: 'html.png',
+    skill: 'HTML',
+  },
+  {
+    id: nanoid(),
+    logo: 'css.png',
+    skill: 'CSS',
+  },
+  {
+    id: nanoid(),
+    logo: 'javascript.png',
+    skill: 'JavaScript',
+  },
+  {
+    id: nanoid(),
+    logo: 'vue.png',
+    skill: 'Vue',
+  },
+  {
+    id: nanoid(),
+    logo: 'node.png',
+    skill: 'Node.js',
+  },
+  {
+    id: nanoid(),
+    logo: 'java.png',
+    skill: 'Java',
+  },
+  {
+    id: nanoid(),
+    logo: 'sql.png',
+    skill: 'SQL',
   },
 ];
 
@@ -78,9 +118,4 @@ export const footerData = {
       url: 'https://github.com/riz007',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };

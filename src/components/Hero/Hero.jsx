@@ -39,11 +39,11 @@ const Header = () => {
                 {cta || 'Know more'}
               </Link>
             </span>
-            <span className="cta-btn cta-btn--hero cta-margin-left">
+            {/* <span className="cta-btn cta-btn--hero cta-margin-left">
               <Link to="resume" smooth duration={1000}>
                 {cta || 'Resume'}
               </Link>
-            </span>
+            </span> */}
           </p>
         </Fade>
       </Container>
